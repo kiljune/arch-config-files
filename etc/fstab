@@ -1,0 +1,22 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=5a322c6d-8826-4d34-b6e4-32b8bf518256	/         	btrfs     	defaults,noatime,discard=async,compress=zstd:3,ssd,space_cache=v2,subvolid=256,subvol=/@	0 0
+
+# /dev/sda1
+UUID=57A8-A69F      	/boot     	vfat      	rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/sda2
+UUID=5a322c6d-8826-4d34-b6e4-32b8bf518256	/home     	btrfs     	defaults,noatime,discard=async,compress=zstd:3,ssd,space_cache=v2,subvolid=257,subvol=/@home	0 0
+
+# /dev/sda2
+UUID=5a322c6d-8826-4d34-b6e4-32b8bf518256	/var/cache	btrfs     	defaults,noatime,discard=async,compress=zstd:3,ssd,space_cache=v2,subvolid=258,subvol=/@cache	0 0
+
+# /dev/sda2
+UUID=5a322c6d-8826-4d34-b6e4-32b8bf518256	/var/log  	btrfs     	defaults,noatime,discard=async,compress=zstd:3,ssd,space_cache=v2,subvolid=259,subvol=/@log	0 0
+
+# /dev/sda2
+UUID=5a322c6d-8826-4d34-b6e4-32b8bf518256	/var/tmp  	btrfs     	defaults,noatime,discard=async,compress=zstd:3,ssd,space_cache=v2,subvolid=260,subvol=/@tmp	0 0
+
