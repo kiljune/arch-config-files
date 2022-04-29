@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  opacity: 0.8
+  opacity: 0.9
 
   # Startup Mode (changes require restart)
   #
@@ -117,7 +117,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: hack
+    family: SourceCodePro
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -128,7 +128,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: hack
+    family: SourceCodePro
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -139,7 +139,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: hack
+    family: SourceCodePro
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -150,7 +150,7 @@ font:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: monospace
+    family: SourceCodePro
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -192,8 +192,8 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#222222'
-    foreground: '#F9F9F9'
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
 
     # Bright and dim foreground colors
     #
@@ -280,26 +280,26 @@ colors:
   #  background: CellForeground
 
   # Normal colors
-  normal:
-    black:   '#3f3f3f'
-    red:     '#cc0000'
-    green:   '#4e9a06'
-    yellow:  '#c4a000'
-    blue:    '#94bff3'
-    magenta: '#85678f'
-    cyan:    '#06989a'
-    white:   '#dcdccc'
+  #normal:
+    #black:   '#1d1f21'
+    #red:     '#cc6666'
+    #green:   '#b5bd68'
+    #yellow:  '#f0c674'
+    #blue:    '#81a2be'
+    #magenta: '#b294bb'
+    #cyan:    '#8abeb7'
+    #white:   '#c5c8c6'
 
   # Bright colors
-  bright:
-    black:   '#545454'
-    red:     '#fc5454'
-    green:   '#8ae234'
-    yellow:  '#fce94f'
-    blue:    '#94bff3'
-    magenta: '#b294bb'
-    cyan:    '#93e0e3'
-    white:   '#ffffff'
+  #bright:
+    #black:   '#666666'
+    #red:     '#d54e53'
+    #green:   '#b9ca4a'
+    #yellow:  '#e7c547'
+    #blue:    '#7aa6da'
+    #magenta: '#c397d8'
+    #cyan:    '#70c0b1'
+    #white:   '#eaeaea'
 
   # Dim colors
   #
