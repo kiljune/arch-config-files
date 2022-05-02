@@ -1,29 +1,3 @@
-
-Skip to content
-Pulls
-Issues
-Marketplace
-Explore
-@kiljune
-BrodieRobertson /
-dotfiles
-Public
-
-Code
-Issues 4
-Pull requests 7
-Actions
-Projects
-Wiki
-
-More
-dotfiles/.zshenv
-@BrodieRobertson
-BrodieRobertson Update dot files
-Latest commit 6c91bb3 on Jan 2, 2021
-History
-1 contributor
-253 lines (243 sloc) 4.86 KB
 typeset -U PATH path
 export GTK_IM_MODULE='fcitx'
 export QT_IM_MODULE='fcitx'
