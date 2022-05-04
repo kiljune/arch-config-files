@@ -90,6 +90,9 @@ alias btrfsli="sudo btrfs su li / -t"
 #remove
 alias rmgitcache="rm -r ~/.cache/git"
 
+# pulsemixer
+alias sound="pulsemixer"
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
