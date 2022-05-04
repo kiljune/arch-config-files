@@ -50,7 +50,7 @@ exec --no-startup-id numlockx on
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id variety
 exec_always --no-startup-id autotileing
-exec_always --no-startup-id picom -CGf --config  $HOME/.config/awesome/picom.conf
+exec_always --no-startup-id picom -CGf --config  $HOME/.config/i3/picom.conf
 exec_always --no-startup-id $HOME/.config/screenlayout/DP-0.sh
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
