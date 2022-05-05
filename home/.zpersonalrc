@@ -89,7 +89,7 @@ alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 
 ## adding flags
 alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+alias free='free -h'                      # show sizes in MB
 alias lynx='lynx -cfg=~/.lynx/lynx.cfg -lss=~/.lynx/lynx.lss -vikeys'
 
 # continue download
