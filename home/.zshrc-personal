@@ -37,10 +37,18 @@ alias upall="paru -Syu --noconfirm"
 
 #Cleanup orphaned packages
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias rmpkg='sudo pacman -Rdd'
+
+#grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 #ps
 alias psa="ps auxf"
 alias psgrep="ps aux | grep -v grep | grep -i -e VSZ -e"
+alias psmem="ps auxf | sort -nr -k 4"
+alias psmem10="ps auxf | sort -nr -k 4 | head -10"
 
 #grub update
 alias update-grub="sudo grub-mkconfig -o /boot/grub/grub.cfg"
@@ -55,6 +63,8 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 #hardware info --short
 alias hw="hwinfo --short"
+alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB (expac must be installed)
+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'          # List amount of -git packages
 
 #skip integrity check
 alias paruskip='paru -S --mflags --skipinteg'
@@ -93,6 +103,7 @@ alias rmgitcache="rm -r ~/.cache/git"
 # pulsemixer
 alias sound="pulsemixer"
 
+alias tarnow='tar -acf '
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
