@@ -14,34 +14,32 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 [[ $- != *i* ]] && return
 
 ## PATH
-if [ -d "$HOME/.bin" ] ;
-    then PATH="$HOME/.bin:$PATH"
+if [ -d "$HOME/.bin" ]; then
+  PATH="$HOME/.bin:$PATH"
 fi
 
-if [ -d "$HOME/.local/bin" ] ;
-    then PATH="$HOME/.local/bin:$PATH"
+if [ -d "$HOME/.local/bin" ]; then
+  PATH="$HOME/.local/bin:$PATH"
 fi
 
-if [ -d "$HOME/Applications" ] ;
-    then PATH="$HOME/Applications:$PATH"
+if [ -d "$HOME/Applications" ]; then
+  PATH="$HOME/Applications:$PATH"
 fi
 
 ## CHANGE TITLE OF TERMINALS
 case ${TERM} in
-  xterm*|rxvt*|Eterm*|aterm|kterm|gnome*|alacritty|st|konsole*)
-    PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
-      ;;
-  screen*)
-    PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
-      ;;
-esac 
-
-
+xterm* | rxvt* | Eterm* | aterm | kterm | gnome* | alacritty | st | konsole*)
+  PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\007"'
+  ;;
+screen*)
+  PROMPT_COMMAND='echo -ne "\033_${USER}@${HOSTNAME%%.*}:${PWD/#$HOME/\~}\033\\"'
+  ;;
+esac
 
 ## ALIASES ###
 
 # navigation
-up () {
+up() {
   local d=""
   local limit="$1"
 
@@ -50,13 +48,13 @@ up () {
     limit=1
   fi
 
-  for ((i=1;i<=limit;i++)); do
+  for ((i = 1; i <= limit; i++)); do
     d="../$d"
   done
 
   # perform cd. Show error if cd fails
   if ! cd "$d"; then
-    echo "Couldn't go up $limit dirs.";
+    echo "Couldn't go up $limit dirs."
   fi
 }
 
@@ -88,8 +86,8 @@ alias unlock="sudo rm /var/lib/pacman/db.lck"
 #alias rmpacmanlock="sudo rm /var/lib/pacman/db.lck"
 
 ## adding flags
-alias df='df -h'                          # human-readable sizes
-alias free='free -h'                      # show sizes in MB
+alias df='df -h'     # human-readable sizes
+alias free='free -h' # show sizes in MB
 alias lynx='lynx -cfg=$HOME/.config/lynx/lynx.cfg -lss=$HOME/.config/lynx/lynx.lss -vikeys'
 
 # continue download
@@ -141,7 +139,7 @@ alias commit='git commit -m'
 alias fetch='git fetch'
 alias pull='git pull origin'
 alias push='git push origin'
-alias stat='git status'  # 'status' is protected name so using 'stat' instead
+alias stat='git status' # 'status' is protected name so using 'stat' instead
 alias tag='git tag'
 alias newtag='git tag -a'
 
@@ -164,8 +162,8 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 # hardware info --short
 alias hw="hwinfo --short"
-alias big="expac -H M '%m\t%n' | sort -h | nl"              # Sort installed packages according to size in MB (expac must be installed)
-alias gitpkg='pacman -Q | grep -i "\-git" | wc -l'          # List amount of -git packages
+alias big="expac -H M '%m\t%n' | sort -h | nl"     # Sort installed packages according to size in MB (expac must be installed)
+alias gitpkg='pacman -Q | grep -i "\-git" | wc -l' # List amount of -git packages
 
 # skip integrity check
 alias paruskip='paru -S --mflags --skipinteg'
@@ -208,39 +206,41 @@ alias tarnow='tar -acf '
 ## Function extract for common file formats ##
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-function extract {
+function extract() {
   if [ -z "$1" ]; then
-  # display usage if no parameters given
+    # display usage if no parameters given
     echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
     echo "       extract <path/file_name_1.ext> [path/file_name_2.ext] [path/file_name_3.ext]"
   else
-    for n in "$@"
-    do
-      if [ -f "$n" ] ; then
+    for n in "$@"; do
+      if [ -f "$n" ]; then
         case "${n%,}" in
-	        *.cbt|*.tar.bz2|*.tar.gz|*.tar.xz|*.tbz2|*.tgz|*.txz|*.tar)
-                       tar xvf "$n"       ;;
-	        *.lzma)      unlzma ./"$n"      ;;
-	        *.bz2)       bunzip2 ./"$n"     ;;
-	        *.cbr|*.rar) unrar x -ad ./"$n" ;;
-	        *.gz)        gunzip ./"$n"      ;;
-	        *.cbz|*.epub|*.zip)
-                       unzip ./"$n"       ;;
-	        *.z)         uncompress ./"$n"  ;;
-	        *.7z|*.arj|*.cab|*.cb7|*.chm|*.deb|*.dmg|*.iso|*.lzh|*.msi|*.pkg|*.rpm|*.udf|*.wim|*.xar)
-	                     7z x ./"$n"        ;;
-	        *.xz)        unxz ./"$n"        ;;
-	        *.exe)       cabextract ./"$n"  ;;
-	        *.cpio)      cpio -id < ./"$n"  ;;
-	        *.cba|*.ace) unace x ./"$n"     ;;
-	        *)
-	                     echo "extract: '$n' - unknown archive method"
-		       return 1
-		       ;;
-	      esac
+        *.cbt | *.tar.bz2 | *.tar.gz | *.tar.xz | *.tbz2 | *.tgz | *.txz | *.tar)
+          tar xvf "$n"
+          ;;
+        *.lzma) unlzma ./"$n" ;;
+        *.bz2) bunzip2 ./"$n" ;;
+        *.cbr | *.rar) unrar x -ad ./"$n" ;;
+        *.gz) gunzip ./"$n" ;;
+        *.cbz | *.epub | *.zip)
+          unzip ./"$n"
+          ;;
+        *.z) uncompress ./"$n" ;;
+        *.7z | *.arj | *.cab | *.cb7 | *.chm | *.deb | *.dmg | *.iso | *.lzh | *.msi | *.pkg | *.rpm | *.udf | *.wim | *.xar)
+          7z x ./"$n"
+          ;;
+        *.xz) unxz ./"$n" ;;
+        *.exe) cabextract ./"$n" ;;
+        *.cpio) cpio -id <./"$n" ;;
+        *.cba | *.ace) unace x ./"$n" ;;
+        *)
+          echo "extract: '$n' - unknown archive method"
+          return 1
+          ;;
+        esac
       else
         echo "'$n' - file does not exist"
-	      return 1
+        return 1
       fi
     done
   fi
