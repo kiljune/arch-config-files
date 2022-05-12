@@ -7,10 +7,10 @@ export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
 
 # Doesn't seem to work
-export ANDROID_SDK_HOME="$XDG_CONFIG_HOME"/android
-export ANDROID_AVD_HOME="$XDG_DATA_HOME"/android
-export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android
-export ADB_VENDOR_KEY="$XDG_CONFIG_HOME"/android
+#export ANDROID_SDK_HOME="$XDG_CONFIG_HOME"/android
+#export ANDROID_AVD_HOME="$XDG_DATA_HOME"/android
+#export ANDROID_EMULATOR_HOME="$XDG_DATA_HOME"/android
+#export ADB_VENDOR_KEY="$XDG_CONFIG_HOME"/android
 
 # Disable files
 export LESSHISTFILE=-
@@ -18,16 +18,16 @@ export LESSHISTFILE=-
 # Fixing Paths
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
 export XSERVERRC="$XDG_CONFIG_HOME"/X11/xserverrc
-export GEM_PATH="$XDG_DATA_HOME/ruby/gems"
-export GEM_SPEC_CACHE="$XDG_DATA_HOME/ruby/specs"
-export GEM_HOME="$XDG_DATA_HOME/ruby/gems"
+#export GEM_PATH="$XDG_DATA_HOME/ruby/gems"
+#export GEM_SPEC_CACHE="$XDG_DATA_HOME/ruby/specs"
+#export GEM_HOME="$XDG_DATA_HOME/ruby/gems"
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export GOPATH="$XDG_DATA_HOME"/go
 export GNUPGHOME="$XDG_DATA_HOME"/gnupg
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export GTK2_RC_FILES="$XDG_CONFIG_HOME"/gtk-2.0/gtkrc
-export ZDOTDIR=$HOME/.config/zsh
-export HISTFILE="$XDG_DATA_HOME"/zsh/history
+#export ZDOTDIR=$HOME/.config/zsh
+#export HISTFILE="$XDG_DATA_HOME"/zsh/history
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RIPGREP_CONFIG_PATH="$XDG_CONFIG_HOME/ripgrep/ripgreprc"
 
@@ -40,25 +40,25 @@ export GDK_DPI_SCALE=1
 
 # Default Apps
 export EDITOR="nvim"
-export READER="zathura"
+#export READER="zathura"
 export VISUAL="nvim"
 export TERMINAL="alacritty"
-export BROWSER="brave"
+#export BROWSER="brave"
 export VIDEO="mpv"
-export IMAGE="sxiv"
+#export IMAGE="sxiv"
 export COLORTERM="truecolor"
 export OPENER="xdg-open"
-export PAGER="less"
-export WM="bspwm"
+#export PAGER="less"
+#export WM="bspwm"
 
 # Path
-path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"
+#path=("$HOME/scripts" "$HOME/scripts/alsa" "$HOME/scripts/dragon" "$HOME/scripts/lf" "$HOME/scripts/i3" "$HOME/scripts/pulse"
 	"$HOME/scripts/polybar" "$HOME/scripts/bspwm" "$HOME/scripts/lemonbar" "$HOME/scripts/transmission"
 	"$HOME/bin/tweetdeck-linux-x64" "$XDG_DATA_HOME/ruby/gems/bin" "$HOME/go/bin" "$HOME/.local/share/cargo/bin"
 	"$XDG_DATA_HOME/npm/bin" "$HOME/.local/bin" "$path[@]")
-export PATH
+#export PATH
 
-export LF_ICONS="\
+#export LF_ICONS="\
 di=:\
 fi=:\
 ln=:\
@@ -219,32 +219,32 @@ ex=:\
 *.pdf=:\
 *.nix=:\
 "
-export FFF_TRASH_CMD="trash-put"
-export FFF_TRASH=~/.local/share/Trash/files
-export FFF_KEY_MKDIR="f"
-export FFF_KEY_MKFILE="i"
-export FFF_TRASH=~/.local/share/Trash/files
-export FFF_FAV1=~/videos/anime
-export FFF_FAV2=~/documents/Uni
-export FFF_FAV3=~/pictures/Wallpapers/wallpapers
-export FFF_MARK_FORMAT="> %f"
-export FFF_FILE_FORMAT=" %f"
+#export FFF_TRASH_CMD="trash-put"
+#export FFF_TRASH=~/.local/share/Trash/files
+#export FFF_KEY_MKDIR="f"
+#export FFF_KEY_MKFILE="i"
+#export FFF_TRASH=~/.local/share/Trash/files
+#export FFF_FAV1=~/videos/anime
+#export FFF_FAV2=~/documents/Uni
+#export FFF_FAV3=~/pictures/Wallpapers/wallpapers
+#export FFF_MARK_FORMAT="> %f"
+#export FFF_FILE_FORMAT=" %f"
 
-export NNN_BMS='v:~/videos;a:~/videos/anime'
-export NNN_TRASH=1
-export NNN_PLUG='o:fzopen'
+#export NNN_BMS='v:~/videos;a:~/videos/anime'
+#export NNN_TRASH=1
+#export NNN_PLUG='o:fzopen'
 
 # Start blinking
-export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
+#export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
 # Start bold
-export LESS_TERMCAP_md=$(tput bold; tput setaf 2) # green
+#export LESS_TERMCAP_md=$(tput bold; tput setaf 2) # green
 # Start stand out
-export LESS_TERMCAP_so=$(tput bold; tput setaf 3) # yellow
+#export LESS_TERMCAP_so=$(tput bold; tput setaf 3) # yellow
 # End standout
-export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
+#export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
 # Start underline
-export LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 1) # red
+#export LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 1) # red
 # End Underline
-export LESS_TERMCAP_ue=$(tput sgr0)
+#export LESS_TERMCAP_ue=$(tput sgr0)
 # End bold, blinking, standout, underline
-export LESS_TERMCAP_me=$(tput sgr0)
+#export LESS_TERMCAP_me=$(tput sgr0)
