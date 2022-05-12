@@ -1,7 +1,12 @@
 export GTK_IM_MODULE=nimf
-export QT4_IM_MODULE="nimf"
 export QT_IM_MODULE=nimf
 export XMODIFIERS="@im=nimf"
 
+#export GTK_IM_MODULE=ibus
+#export QT_IM_MODULE=ibus
+#export XMODIFIERS="@im=ibus"
+
 nvidia-settings --config=~/.config/nvidia/nvidia-settings-rc --load-config-only
+setxkbmap -option caps:swapescape
 nimf
+#ibus-daemon -drxR
