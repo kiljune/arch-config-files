@@ -1,5 +1,5 @@
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.zsh_histfile
+HISTFILE=~/.config/zsh/histfile
 HISTSIZE=1000
 SAVEHIST=1000
 setopt beep nomatch
@@ -15,4 +15,4 @@ compinit
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
-[[ -f ~/.zpersonal-rc ]] && . ~/.zpersonal-rc
+[[ -f ~/.config/zsh/zpersonal-rc ]] && . ~/.config/zsh/zpersonal-rc
