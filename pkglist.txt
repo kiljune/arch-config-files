@@ -1,0 +1,719 @@
+Name            : adobe-source-code-pro-fonts
+Version         : 2.038ro+1.058it+1.018var-1
+Description     : Monospaced font family for user interface and coding environments
+
+Name            : adwaita-icon-theme
+Version         : 42.0+r1+gc144c3d75-1
+Description     : GNOME standard icons
+
+Name            : alacritty
+Version         : 0.10.1-1
+Description     : A cross-platform, GPU-accelerated terminal emulator
+
+Name            : appimagelauncher
+Version         : 2.2.0-5
+Description     : A Helper application for running and integrating AppImages.
+
+Name            : arc-gtk-theme
+Version         : 20220405-1
+Description     : A flat theme with transparent elements for GTK 2,3,4 and Gnome-Shell
+
+Name            : arc-icon-theme
+Version         : 20161122-3
+Description     : Arc icon theme. Official releases only.
+
+Name            : archlinux-keyring
+Version         : 20220424-1
+Description     : Arch Linux PGP keyring
+
+Name            : archlinux-wallpaper
+Version         : 1.6.1-2
+Description     : Arch Linux Wallpapers
+
+Name            : asp
+Version         : 8-1
+Description     : Arch Linux build source file management tool
+
+Name            : atool
+Version         : 0.39.0-8
+Description     : A script for managing file archives of various types
+
+Name            : atril
+Version         : 1.26.0-1
+Description     : MATE document viewer
+
+Name            : awesome-terminal-fonts
+Version         : 1.1.0-4
+Description     : fonts/icons for powerlines
+
+Name            : bat
+Version         : 0.20.0-2
+Description     : Cat clone with syntax highlighting and git integration
+
+Name            : bibata-cursor-theme-bin
+Version         : 1.1.2-1
+Description     : Material Based Cursor Theme
+
+Name            : biber
+Version         : 1:2.17-1
+Description     : A Unicode-capable BibTeX replacement for biblatex users
+
+Name            : blueberry
+Version         : 1.4.6-1
+Description     : Bluetooth configuration tool
+
+Name            : bzip2
+Version         : 1.0.8-4
+Description     : A high-quality data compression program
+
+Name            : cabextract
+Version         : 1.9.1-2
+Description     : A program to extract Microsoft cabinet (.CAB) files
+
+Name            : cairo
+Version         : 1.17.6-2
+Description     : 2D graphics library with support for multiple output devices
+
+Name            : catdoc
+Version         : 0.95-3
+Description     : A convertor for Microsoft Word, Excel, PowerPoint and RTF Files to text
+
+Name            : catimg
+Version         : 2.7.0-1
+Description     : Print images in a terminal with 256 colors support
+
+Name            : cdrtools
+Version         : 3.02a09-5
+Description     : Original cdrtools supporting CD, DVD and BluRay burning
+
+Name            : chafa
+Version         : 1.10.3-1
+Description     : Image-to-text converter supporting a wide range of symbols and palettes, transparency, animations, etc.
+
+Name            : cpio
+Version         : 2.13-2
+Description     : A tool to copy files into or out of a cpio or tar archive
+
+Name            : cups-pk-helper
+Version         : 0.2.6-4
+Description     : A helper that makes system-config-printer use PolicyKit
+
+Name            : dblatex
+Version         : 0.3.12-3
+Description     : DocBook (XML and SGML) to DVI, PDF, PostScript converter using latex.
+
+Name            : devtools
+Version         : 20220207-2
+Description     : Tools for Arch Linux package maintainers
+
+Name            : dex
+Version         : 0.9.0-1
+Description     : Program to generate and execute DesktopEntry files of type Application
+
+Name            : dialog
+Version         : 1:1.3_20220414-1
+Description     : A tool to display dialog boxes from shell scripts
+
+Name            : djvulibre
+Version         : 3.5.28-3
+Description     : Suite to create, manipulate and view DjVu ('déjà vu') documents
+
+Name            : dmidecode
+Version         : 3.3-1
+Description     : Desktop Management Interface table related utilities
+
+Name            : elinks
+Version         : 0.15.0-1
+Description     : An advanced and well-established feature-rich text mode web browser.
+
+Name            : enpass-bin
+Version         : 6.7.4.933-1
+Description     : A multiplatform password manager
+
+Name            : espeak-ng
+Version         : 1.51-1
+Description     : Multi-lingual software speech synthesizer
+
+Name            : exa
+Version         : 0.10.1-5
+Description     : ls replacement
+
+Name            : expac
+Version         : 10-5
+Description     : alpm data (pacman database) extraction utility
+
+Name            : fastjar
+Version         : 0.98-6
+Description     : Sun java jar compatible archiver
+
+Name            : feh
+Version         : 3.8-2
+Description     : Fast and light imlib2-based image viewer
+
+Name            : festival
+Version         : 2.5.0-4
+Description     : A general multi-lingual speech synthesis system
+
+Name            : ffmpeg
+Version         : 2:5.0-7
+Description     : Complete solution to record, convert and stream audio and video
+
+Name            : ffmpegthumbnailer
+Version         : 2.2.2-4
+Description     : Lightweight video thumbnailer that can be used by file managers
+
+Name            : firefox
+Version         : 100.0-1
+Description     : Standalone web browser from mozilla.org
+
+Name            : flatpak
+Version         : 1:1.12.7-1
+Description     : Linux application sandboxing and distribution framework (formerly xdg-app)
+
+Name            : flatpak-builder
+Version         : 1.2.2-1
+Description     : Tool to build flatpaks from source
+
+Name            : flatpak-xdg-utils
+Version         : 1.0.5-1
+Description     : Utilities for containerized apps to launch programs outside the container
+
+Name            : galculator
+Version         : 2.1.4-7
+Description     : GTK+ based scientific calculator
+
+Name            : gdb
+Version         : 12.1-1
+Description     : The GNU Debugger
+
+Name            : ghostscript
+Version         : 9.56.1-1
+Description     : An interpreter for the PostScript language
+
+Name            : git
+Version         : 2.36.1-1
+Description     : the fast distributed version control system
+
+Name            : glusterfs
+Version         : 1:10.1-1
+Description     : a cluster file-system capable of scaling to several peta-bytes.
+
+Name            : gperftools
+Version         : 2.9.1-2
+Description     : Fast, multi-threaded malloc and nifty performance analysis tools
+
+Name            : gst-libav
+Version         : 1.20.2-1
+Description     : Multimedia graph framework - libav plugin
+
+Name            : gst-plugin-pipewire
+Version         : 1:0.3.51-1
+Description     : Multimedia graph framework - pipewire plugin
+
+Name            : gst-plugins-bad
+Version         : 1.20.2-1
+Description     : Multimedia graph framework - bad plugins
+
+Name            : gst-plugins-base
+Version         : 1.20.2-1
+Description     : Multimedia graph framework - base plugins
+
+Name            : gst-plugins-good
+Version         : 1.20.2-1
+Description     : Multimedia graph framework - good plugins
+
+Name            : gst-plugins-ugly
+Version         : 1.20.2-1
+Description     : Multimedia graph framework - ugly plugins
+
+Name            : gtk-engine-murrine
+Version         : 0.98.2-4
+Description     : GTK2 engine to make your desktop look like a 'murrina', an italian word meaning the art glass works done by Venicians glass blowers.
+
+Name            : gufw
+Version         : 22.04-1
+Description     : Uncomplicated way to manage your Linux firewall
+
+Name            : gvfs
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO
+
+Name            : gvfs-afc
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (AFC backend; Apple mobile devices)
+
+Name            : gvfs-goa
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (Gnome Online Accounts backend; cloud storage)
+
+Name            : gvfs-google
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (Google Drive backend)
+
+Name            : gvfs-gphoto2
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (gphoto2 backend; PTP camera, MTP media player)
+
+Name            : gvfs-mtp
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (MTP backend; Android, media player)
+
+Name            : gvfs-nfs
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (NFS backend)
+
+Name            : gvfs-smb
+Version         : 1.50.1-1
+Description     : Virtual filesystem implementation for GIO (SMB/CIFS backend; Windows client)
+
+Name            : gzip
+Version         : 1.12-1
+Description     : GNU compression utility
+
+Name            : hddtemp
+Version         : 0.3.beta15.53-3
+Description     : Gives you the temperature of your hard drive by reading S.M.A.R.T. information
+
+Name            : highlight
+Version         : 4.2-1
+Description     : Fast and flexible source code highlighter (CLI version)
+
+Name            : htop
+Version         : 3.2.0-1
+Description     : Interactive process viewer
+
+Name            : hunspell
+Version         : 1.7.0-3
+Description     : Spell checker and morphological analyzer library and program
+
+Name            : hunspell-en_us
+Version         : 2020.12.07-4
+Description     : US English hunspell dictionaries
+
+Name            : hwinfo
+Version         : 21.80-2
+Description     : Hardware detection tool from openSUSE
+
+Name            : imagemagick
+Version         : 7.1.0.34-1
+Description     : An image viewing/manipulation program
+
+Name            : imagemagick-doc
+Version         : 7.1.0.34-1
+Description     : An image viewing/manipulation program (manual and API docs)
+
+Name            : intel-ucode
+Version         : 20220510-1
+Description     : Microcode update files for Intel CPUs
+
+Name            : jasper
+Version         : 3.0.3-1
+Description     : Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
+
+Name            : jasper-doc
+Version         : 3.0.3-1
+Description     : Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard (documentation)
+
+Name            : jdk-openjdk
+Version         : 18.0.1.1.u2-1
+Description     : OpenJDK Java 18 development kit
+
+Name            : jp2a
+Version         : 1.1.1-1
+Description     : A small utility for converting JPG images to ASCII
+
+Name            : jpegexiforient
+Version         : 1:20090111.b4f886f-2
+Description     : Get and set the Exif Orientation Tag
+
+Name            : leafpad
+Version         : 0.8.18.1-9
+Description     : A notepad clone for GTK+ 2.0
+
+Name            : libdvdcss
+Version         : 1.4.3-1
+Description     : Portable abstraction library for DVD decryption
+
+Name            : libmysofa
+Version         : 1.2.1-2
+Description     : C library to read HRTFs if they are stored in the AES69-2015 SOFA format
+
+Name            : lightdm
+Version         : 1:1.30.0-4
+Description     : A lightweight display manager
+
+Name            : lightdm-gtk-greeter
+Version         : 1:2.0.8-2
+Description     : GTK+ greeter for LightDM
+
+Name            : lightdm-gtk-greeter-settings
+Version         : 1.2.2-7
+Description     : Settings editor for the LightDM GTK+ Greeter
+
+Name            : lldb
+Version         : 13.0.1-1
+Description     : Next generation, high-performance debugger
+
+Name            : llvm
+Version         : 13.0.1-3
+Description     : Collection of modular and reusable compiler and toolchain technologies
+
+Name            : lua
+Version         : 5.4.4-1
+Description     : Powerful lightweight programming language designed for extending applications
+
+Name            : lynx
+Version         : 2.8.9-5
+Description     : A text browser for the World Wide Web
+
+Name            : lzop
+Version         : 1.04-3
+Description     : File compressor using lzo lib
+
+Name            : mailcap
+Version         : 2.1.53-1
+Description     : Helper application and MIME type associations for file types
+
+Name            : man-db
+Version         : 2.10.2-1
+Description     : A utility for reading man pages
+
+Name            : man-pages
+Version         : 5.13-1
+Description     : Linux man pages
+
+Name            : mediainfo
+Version         : 22.03-1
+Description     : Supplies technical and tag information about a video or audio file (CLI interface)
+
+Name            : mesa
+Version         : 22.0.3-1
+Description     : An open-source implementation of the OpenGL specification
+
+Name            : mpv
+Version         : 1:0.34.1-4
+Description     : a free, open source, and cross-platform media player
+
+Name            : ncdu
+Version         : 2.1.2-1
+Description     : Disk usage analyzer with an ncurses interface
+
+Name            : neofetch
+Version         : 7.1.0-2
+Description     : A CLI system information tool written in BASH that supports displaying images.
+
+Name            : neovim
+Version         : 0.7.0-3
+Description     : Fork of Vim aiming to improve user experience, plugins, and GUIs
+
+Name            : network-manager-applet
+Version         : 1.26.0-1
+Description     : Applet for managing network connections
+
+Name            : nimf-libhangul-git
+Version         : 1.3.0.r12.181f946-1
+Description     : Nimf is a lightweight, fast and extensible input method framework. (libhangul only)
+
+Name            : nitrogen
+Version         : 1.6.1-4
+Description     : Background browser and setter for X windows
+
+Name            : noto-fonts
+Version         : 20220502-2
+Description     : Google Noto TTF fonts
+
+Name            : noto-fonts-cjk
+Version         : 20220126-1
+Description     : Google Noto CJK fonts
+
+Name            : noto-fonts-emoji
+Version         : 20211101-1
+Description     : Google Noto emoji fonts
+
+Name            : noto-fonts-extra
+Version         : 20220502-2
+Description     : Google Noto TTF fonts - additional variants
+
+Name            : numlockx
+Version         : 1.2-5
+Description     : Turns on the numlock key in X11.
+
+Name            : ocl-icd
+Version         : 2.3.1-1
+Description     : OpenCL ICD Bindings
+
+Name            : odt2txt
+Version         : 0.5-4
+Description     : extracts the text out of OpenDocument Texts
+
+Name            : opencl-mesa
+Version         : 22.0.3-1
+Description     : OpenCL support for AMD/ATI Radeon mesa drivers
+
+Name            : openexr
+Version         : 3.1.5-1
+Description     : A high dynamic-range image file format library
+
+Name            : openjpeg2
+Version         : 2.5.0-1
+Description     : An open source JPEG 2000 codec, version 2.5.0
+
+Name            : openmp
+Version         : 13.0.1-1
+Description     : LLVM OpenMP Runtime Library
+
+Name            : openmpi
+Version         : 4.1.2-1
+Description     : High performance message passing library (MPI)
+
+Name            : p7zip
+Version         : 1:17.04-3
+Description     : Command-line file archiver with high compression ratio
+
+Name            : papirus-icon-theme
+Version         : 20220508-1
+Description     : Papirus icon theme
+
+Name            : paru-bin
+Version         : 1.10.0-1
+Description     : Feature packed AUR helper
+
+Name            : pavucontrol
+Version         : 1:5.0+r35+g964f298-1
+Description     : PulseAudio Volume Control
+
+Name            : pulsemixer
+Version         : 1.5.1-3
+Description     : CLI and curses mixer for pulseaudio
+
+Name            : python
+Version         : 3.10.4-1
+Description     : Next generation of the python high-level scripting language
+
+Name            : python-pip
+Version         : 21.0-1
+Description     : The PyPA recommended tool for installing Python packages
+
+Name            : python-setuptools
+Version         : 1:60.5.0-1
+Description     : Easily download, build, install, upgrade, and uninstall Python packages
+
+Name            : ranger
+Version         : 1.9.3-4
+Description     : Simple, vim-like file manager
+
+Name            : rate-mirrors-bin
+Version         : 0.9.2-1
+Description     : Everyday-use client-side map-aware mirror ranking tool - pre-built with musl
+
+Name            : rdesktop
+Version         : 1.9.0-2
+Description     : An open source client for Windows Remote Desktop Services
+
+Name            : reflector
+Version         : 2021.11-3
+Description     : A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+
+Name            : ripgrep
+Version         : 13.0.0-2
+Description     : A search tool that combines the usability of ag with the raw speed of grep
+
+Name            : rofi
+Version         : 1.7.3-1
+Description     : A window switcher, application launcher and dmenu replacement
+
+Name            : rpmextract
+Version         : 1.0-9
+Description     : Script to convert or extract RPM archives (contains rpm2cpio)
+
+Name            : rustup
+Version         : 1.24.3-2
+Description     : The Rust toolchain installer
+
+Name            : smartmontools
+Version         : 7.3-1
+Description     : Control and monitor S.M.A.R.T. enabled ATA and SCSI Hard Drives
+
+Name            : starship
+Version         : 1.6.3-1
+Description     : The cross-shell prompt for astronauts
+
+Name            : system-config-printer
+Version         : 1.5.16-1
+Description     : A CUPS printer configuration tool and status applet
+
+Name            : system-monitoring-center
+Version         : 1.15.0-1
+Description     : System performance and usage monitoring tool
+
+Name            : tcl
+Version         : 8.6.12-3
+Description     : Powerful, easy-to-learn dynamic programming language
+
+Name            : terminus-font
+Version         : 4.49.1-2
+Description     : Monospace bitmap font (for X11 and console)
+
+Name            : texlive-bin
+Version         : 2022.62885-1
+Description     : TeX Live binaries
+
+Name            : thunderbird
+Version         : 91.9.0-1
+Description     : Standalone mail and news reader from mozilla.org
+
+Name            : tigervnc
+Version         : 1.12.0-3
+Description     : Suite of VNC servers and clients. Based on the VNC 4 branch of TightVNC.
+
+Name            : timeshift-autosnap
+Version         : 0.9-1
+Description     : Timeshift auto-snapshot script which runs before package upgrade using Pacman hook.
+
+Name            : timeshift-bin
+Version         : 21.09.1-2
+Description     : A system restore utility for Linux
+
+Name            : tk
+Version         : 8.6.12-1
+Description     : A windowing toolkit for use with tcl
+
+Name            : transmission-cli
+Version         : 3.00-4
+Description     : Fast, easy, and free BitTorrent client (CLI tools, daemon and web client)
+
+Name            : transmission-gtk
+Version         : 3.00-4
+Description     : Fast, easy, and free BitTorrent client (GTK+ GUI)
+
+Name            : trash-cli
+Version         : 0.22.4.16-1
+Description     : Command line trashcan (recycle bin) interface
+
+Name            : tree
+Version         : 2.0.2-1
+Description     : A directory listing program displaying a depth indented list of files
+
+Name            : ttf-bitstream-vera
+Version         : 1.10-14
+Description     : Bitstream Vera fonts.
+
+Name            : ttf-croscore
+Version         : 20220502-2
+Description     : Chrome OS core fonts
+
+Name            : ttf-dejavu
+Version         : 2.37+18+g9b5d1b2f-3
+Description     : Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Name            : ttf-droid
+Version         : 20121017-10
+Description     : General-purpose fonts released by Google as part of Android
+
+Name            : ttf-font-awesome
+Version         : 6.1.1-1
+Description     : Iconic font designed for Bootstrap
+
+Name            : ttf-hack
+Version         : 3.003-3
+Description     : A hand groomed and optically balanced typeface based on Bitstream Vera Mono.
+
+Name            : ttf-iosevka-nerd
+Version         : 2.1.0-2
+Description     : Typeface family designed for coding, terminal use and technical documents (Nerd Fonts)
+
+Name            : ttf-nerd-fonts-symbols-mono
+Version         : 2.1.0+36+gd0bf73a1-4
+Description     : High number of extra glyphs from popular 'iconic fonts' (1000-em)
+
+Name            : ttf-roboto
+Version         : 2.138-4
+Description     : Google's signature family of fonts
+
+Name            : ttf-roboto-mono
+Version         : 3.000-1
+Description     : A monospaced addition to the Roboto type family.
+
+Name            : ufw
+Version         : 0.36.1-1
+Description     : Uncomplicated and easy to use CLI tool for managing a netfilter firewall
+
+Name            : ufw-extras
+Version         : 0.7.0-2
+Description     : Extra configuration files for UFW
+
+Name            : unrar
+Version         : 1:6.1.7-1
+Description     : The RAR uncompression program
+
+Name            : unzip
+Version         : 6.0-18
+Description     : For extracting and viewing files in .zip archives
+
+Name            : variety
+Version         : 0.8.7-1
+Description     : Changes the wallpaper on a regular interval using user-specified or automatically downloaded images.
+
+Name            : volumeicon
+Version         : 0.5.1-5
+Description     : Volume control for the system tray
+
+Name            : vulkan-radeon
+Version         : 22.0.3-1
+Description     : Radeon's Vulkan mesa driver
+
+Name            : w3m
+Version         : 0.5.3.git20220409_1-1
+Description     : Text-based Web browser as well as pager
+
+Name            : wdiff
+Version         : 1.2.2-4
+Description     : A wordwise implementation of GNU diff
+
+Name            : wget
+Version         : 1.21.3-1
+Description     : Network utility to retrieve files from the Web
+
+Name            : wl-clipboard
+Version         : 1:2.1.0-1
+Description     : Command-line copy/paste utilities for Wayland
+
+Name            : xdg-user-dirs
+Version         : 0.17-3
+Description     : Manage user directories like ~/Desktop and ~/Music
+
+Name            : zip
+Version         : 3.0-10
+Description     : Compressor/archiver for creating and modifying zipfiles
+
+Name            : zram-generator
+Version         : 1.1.2-1
+Description     : Systemd unit generator for zram devices
+
+Name            : zsh
+Version         : 5.8.1-2
+Description     : A very advanced and programmable command interpreter (shell) for UNIX
+
+Name            : zsh-autosuggestions
+Version         : 0.7.0-1
+Description     : Fish-like autosuggestions for zsh
+
+Name            : zsh-completions
+Version         : 0.33.0-1
+Description     : Additional completion definitions for Zsh
+
+Name            : zsh-doc
+Version         : 5.8.1-2
+Description     : Info, HTML and PDF format of the ZSH documentation
+
+Name            : zsh-history-substring-search
+Version         : 1.0.2-1
+Description     : ZSH port of Fish history search (up arrow)
+
+Name            : zsh-syntax-highlighting
+Version         : 0.7.1-1
+Description     : Fish shell like syntax highlighting for Zsh
+
+Name            : zshdb
+Version         : 1.1.2-1
+Description     : A debugger for zsh scripts.
